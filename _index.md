@@ -1,6 +1,6 @@
 ---
 emoji: 🤹🏻‍♀️
-title: Learning github actions
+title: learning github actions
 description: My notes on understanding Github actions.
 date: 2022-01-31 22:15:00
 ---
@@ -28,11 +28,11 @@ jobs:
           fetch-depth: 0 # variables to be used with the above package
 ```
 
-## Examples:
+## examples:
 
 - [https://github.com/lilyhill/devkit/blob/main/.github/workflows/workflows.yaml](https://github.com/lilyhill/devkit/blob/main/.github/workflows/workflows.yaml)
 
-## Questions:
+## questions:
 
 - How to have incremental build numbers, after merging master?
   - Stuff tried:
@@ -40,7 +40,7 @@ jobs:
   - Stuff that works:
     - {{ github.run_number }}
 
-## Packages I use:
+## packages i use:
 
 - `subosito/flutter-action@v2` 
   - Use macos flutter to build flutter mac apps
